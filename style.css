@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+
+}
+.section {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size:  cover;
+    scroll-snap-align: start;
+    gap:50px;
+    color: #fff;
+    background:linear-gradient(454deg, #130a04,#ee9559);
+    position: relative;
+}
+.section img{
+    width: 55%;
+    height: 100%;
+}
+.section h2{
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 650px;
+}
+.section h3{
+    max-width: 250px;
+}
+.s1{
+    background:linear-gradient(454deg, #130a04, #ee9559);  
+}
+.s2{
+    background:linear-gradient(454deg, #ee9559,#130a04);  
+}
+.s3{
+    background:linear-gradient(454deg, #130a04,#ee9559);  
+}
+.s4{
+    background:linear-gradient(454deg, #ee9559,#130a04);  
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+position:relative;
+left: 0;
+top: 0;
+width: 100%;
+height: 75px;
+background:  #130a04;
+box-shadow: 0 5px 10px rgba(0red,0 green, 0blue,0.1);
+}
+nav .navbar{
+    display: flex;  
+    align-items: center;
+    justify-content:space-between;
+    height: 100%;
+    max-width: 90%;
+    background:  #130a04;
+    margin: auto;
+
+}
+nav .navbar .logo a{
+    color: #fff;  
+    font-size: 27px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar .menu{
+    display: flex;  
+}
+.navbar .menu li{
+    list-style: none;  
+    margin: 0 15px;
+}
+.navbar .menu li a{
+    color: #fff;  
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+}
+.button a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background: #2980b9;
+    padding: 7px 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0red,0 green, 0blue, 0.15);
+}
+.content{
+    top:50%;
+    left: 42%;
+    transform: translateY(-50%);
+}
