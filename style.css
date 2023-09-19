@@ -111,18 +111,6 @@ nav .navbar .logo a {
     text-decoration: none;
 }
 
-.button a {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    color: #fff;
-    background: #2980b9;
-    padding: 7px 12px;
-    font-size: 18px;
-    border-radius: 6px;
-    box-shadow: rgba(0red, 0 green, 0blue, 0.15);
-}
-
 .content {
     top: 50%;
     left: 42%;
