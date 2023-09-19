@@ -69,10 +69,6 @@ body {
 }
 
 .s3 {
-    background: linear-gradient(454deg, #130a04, #ee9559);
-}
-
-.s4 {
     background: linear-gradient(454deg, #ee9559, #130a04);
     /* display: grid; */
 }
