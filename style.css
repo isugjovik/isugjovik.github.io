@@ -67,11 +67,11 @@ body {
 }
 
 nav {
-    position: relative;
+    position: sticky;
     left: 0;
     top: 0;
     width: 100%;
-    height: 75px;
+    height: 50px;
     background: #130a04;
     box-shadow: 0 5px 10px rgba(0red, 0 green, 0blue, 0.1);
 }
