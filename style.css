@@ -129,3 +129,10 @@ nav .navbar .logo a {
     left: 42%;
     transform: translateY(-50%);
 }
+
+iframe{
+    filter: invert(.9) saturate(0.5) hue-rotate(145deg);
+    display: flex;
+    scroll-snap-align: start;
+    width: 100%;
+ }
