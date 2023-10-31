@@ -57,13 +57,13 @@ body {
 }
 
 .section h2 {
-    font-size: 4vw;
+    font-size: 3vw;
     font-weight: 200;
     max-width: 30%;
 }
 
 .section h3 {
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: 200;
     max-width: fit-content;
 }
