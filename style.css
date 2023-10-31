@@ -63,7 +63,7 @@ body {
 }
 
 .section h3 {
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 200;
     max-width: fit-content;
 }
@@ -141,6 +141,12 @@ nav .navbar .logo a {
 @media only screen and (max-width: 500px) {
     nav .navbar .logo a {
         font-size: 17px;
+    }
+
+    .section h2 {
+        font-size: 4vw;
+        font-weight: 200;
+        max-width: 30%;
     }
 }
 
