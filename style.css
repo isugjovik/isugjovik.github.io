@@ -39,7 +39,7 @@ body {
     justify-content: center;
     background-size: cover;
     scroll-snap-align: start;
-    gap: 50px;
+    gap: 5%;
     color: #fff;
     background: linear-gradient(454deg, #130a04, #ee9559);
     position: relative;
@@ -52,28 +52,54 @@ body {
 
 .section.s1 img {
     width: 70%;
+    object-fit: cover;
+    object-position: 50% 50%;
 }
 
 .section h2 {
-    font-size: 4vw;
-    font-weight: 700;
-    max-width: 400px;
+    font-size: 20px;
+    font-weight: 200;
+    max-width: 30%;
 }
 
 .section h3 {
-    max-width: 200px;
+    font-size: 3vw;
+    font-weight: 200;
+    max-width: fit-content;
 }
+/* .section h3 {
+    max-width: 200px;
+} */
 
 .s1 {
-    background: linear-gradient(454deg, #130a04, #ee9559);
+    background: linear-gradient(454deg, #cbf1ff, #367fff);
 }
 
 .s2 {
-    background: linear-gradient(454deg, #ee9559, #130a04);
+    background: linear-gradient(454deg, #367fff, #e2f8ff);
+    /* padding-left: 2%; */
+    overflow: hidden;
+    /* display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    flex-direction: row; */
 }
 
-.s3 {
-    background: linear-gradient(454deg, #ee9559, #130a04);
+.s2 img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+  }
+  
+/* .s2 h3 {
+    margin: 0 20px; 
+    position: relative;
+} */
+
+
+.s4 {
+    background: linear-gradient(454deg, #367fff, #e2f8ff);
     /* display: grid; */
 }
 
@@ -115,6 +141,12 @@ nav .navbar .logo a {
 @media only screen and (max-width: 500px) {
     nav .navbar .logo a {
         font-size: 17px;
+    }
+
+    .section h2 {
+        font-size: 4vw;
+        font-weight: 200;
+        max-width: 30%;
     }
 }
 
